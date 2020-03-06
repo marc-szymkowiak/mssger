@@ -4,9 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.*;
 
-public class mssgERclient extends JFrame {
-	
+public class MssgClientGUI extends JFrame {
 
+	private static final long serialVersionUID = 6867168492114740968L;
 	JFrame mainFrame;
 	JButton sendButton;
 	JTabbedPane tabbedPane;
@@ -23,7 +23,7 @@ public class mssgERclient extends JFrame {
 	JTextArea messageArea;
 	Box box;
 	
-	mssgERclient() {
+	MssgClientGUI() {
 		super("mssgER Client");
 		
 		mainFrame = new JFrame();
@@ -99,7 +99,7 @@ public class mssgERclient extends JFrame {
 	
 	public static void main(String arggs[]) {
 		passwordEntry();
-		mssgERclient mainGUI = new mssgERclient();
+		MssgClientGUI mainGUI = new MssgClientGUI();
 		
 	}
 	
